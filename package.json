@@ -1,0 +1,29 @@
+{
+  "name": "todo-fancy-api",
+  "version": "1.0.0",
+  "description": "ToDo Application, (CRUD, Auth using JWT, facebook login)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmax/todo-fancy-api.git"
+  },
+  "author": "christian tobing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianmax/todo-fancy-api/issues"
+  },
+  "homepage": "https://github.com/ianmax/todo-fancy-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "fb": "^2.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.4"
+  }
+}
